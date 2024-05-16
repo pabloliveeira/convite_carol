@@ -10,6 +10,8 @@
     font-family: Roboto, sans-serif;
     color: variables.$textColor;
     list-style: none;
+    overflow-x: hidden;
+
 }
 
 .container {
@@ -22,6 +24,8 @@
     }
 
     @media (max-width: 1024px) {
-        max-width: 90%;
+        .container {
+            max-width: 90%;
+        }
     }
 }

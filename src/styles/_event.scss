@@ -31,7 +31,7 @@
     }
     
     &__image {
-        max-width: 480px;
+        max-width: 430px;
     }
     
     &__details {
@@ -60,6 +60,16 @@
             margin-right: 0;
             margin-bottom: 16px;
         }
+    }
+    @media (max-width:1024px) {
+        .container {
+            display: block;
+        }
+
+        &__image {
+            width: 100%;
+        }
+        
     }
 }
     
